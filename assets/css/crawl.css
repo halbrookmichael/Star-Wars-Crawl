@@ -174,7 +174,7 @@ h1.intro-title {
     -o-transform: rotateX(60deg) translateZ(0);
 }
 	100% {
-    top: -40250px;
+    top: -40300px;
     transform: rotateX(75deg) translateZ(-33800px);
     -webkit-transform: rotateX(75deg) translateZ(-33800px);
     -moz-transform: rotateX(75deg) translateZ(-33800px);
