@@ -75,7 +75,9 @@ h1.intro-title {
 }
 
 .title {
-  width: 1720px;
+  width: 2325px;
+  text-align: center;
+  margin-left: -250px;
 }
 
 .title h1,
@@ -173,11 +175,11 @@ h1.intro-title {
 }
 	100% {
     top: -40250px;
-    transform: rotateX(75deg) translateZ(-33500px);
-    -webkit-transform: rotateX(75deg) translateZ(-33500px);
-    -moz-transform: rotateX(75deg) translateZ(-33500px);
-    -ms-transform: rotateX(75deg) translateZ(-33500px);
-    -o-transform: rotateX(75deg) translateZ(-33500px);
+    transform: rotateX(75deg) translateZ(-33800px);
+    -webkit-transform: rotateX(75deg) translateZ(-33800px);
+    -moz-transform: rotateX(75deg) translateZ(-33800px);
+    -ms-transform: rotateX(75deg) translateZ(-33800px);
+    -o-transform: rotateX(75deg) translateZ(-33800px);
 }
 }
 
