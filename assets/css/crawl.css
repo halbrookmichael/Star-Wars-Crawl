@@ -91,6 +91,7 @@ h1.intro-title {
   display: flex;
   flex-direction: column;
   align-content: center;
+  margin-bottom: 20px;
 }
 
 .title h1,
@@ -105,7 +106,7 @@ h1.intro-title {
 .title h1 {
   color: #FFE81F;
   text-transform: uppercase;
-  font: normal 700 325px "franklin-gothic-urw-cond",sans-serif;
+  font: normal 700 290px "franklin-gothic-urw-cond",sans-serif;
   letter-spacing: 5px;
   margin: 0 auto 15px;
   
