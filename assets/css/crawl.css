@@ -117,9 +117,9 @@ h1.intro-title {
   font-weight: 500;
   font-family: "franklin-gothic-urw", sans-serif;
   text-align: justify;
-  letter-spacing: 14px;
+  letter-spacing: 13px;
   z-index: 1;
-  line-height: 1.54em;
+  line-height: 1.45em;
 }
 
 .stars, .twinkling {
@@ -226,19 +226,19 @@ h1.intro-title {
     top: 90px;
   }
   60% {
-    top: -700px;
+    top: -600px;
   }
   70% {
-    top: -700px;
+    top: -600px;
   }
   80% {
-    top: -700px;
+    top: -600px;
   }
   90% {
-    top: -700px;
+    top: -600px;
   }
   100% {
-    top: -700px;
+    top: -600px;
   }
 }
 
