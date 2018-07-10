@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
 
 body {
-  height: 100%;
   width: 100%;
   overflow: hidden;   
   background: #000;
@@ -46,10 +45,11 @@ h1.intro-title {
   opacity: 0.9;
   animation: scrollDown 13s ease-in 86s;
   -webkit-animation: scrollDown 13s ease-in 86s;
+  opacity: 0;
 }
 
 .star-wars {
-  height: 500px;
+  height: 1200px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@ h1.intro-title {
   animation: showSky 100s linear 9s;
   -webkit-animation: showSky 100s linear 9s;
   opacity: 0;
-  width: 1050px;
+  width: 1894px;
   left: -2%;
 }
 
@@ -106,10 +106,8 @@ h1.intro-title {
 .title h1 {
   color: #FFE81F;
   text-transform: uppercase;
-  font: normal 700 290px "franklin-gothic-urw-cond",sans-serif;
-  letter-spacing: 5px;
-  margin: 0 auto 15px;
-  
+  font: normal 700 285px "franklin-gothic-urw-cond",sans-serif;
+  letter-spacing: 2px;
 }
 
 .crawl p {
@@ -146,6 +144,17 @@ h1.intro-title {
   -o-animation:move-twink-back 825s linear infinite;
   -webkit-animation:move-twink-back 825s linear infinite;
   animation:move-twink-back 825s linear infinite;
+}
+
+.bottom-black-bar {
+  background-color: #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 7;
 }
 
 /* animation is turning transparent bg on and off */
@@ -227,18 +236,23 @@ h1.intro-title {
     top: 90px;
   }
   60% {
+    opacity: 1;
     top: -600px;
   }
   70% {
+    opacity: 1;
     top: -600px;
   }
   80% {
+    opacity: 1;
     top: -600px;
   }
   90% {
+    opacity: 1;
     top: -600px;
   }
   100% {
+    opacity: 1;
     top: -600px;
   }
 }
