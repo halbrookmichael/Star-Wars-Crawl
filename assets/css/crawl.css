@@ -185,7 +185,7 @@ h1.intro-title {
 
 @keyframes crawl {
 	0% {
-    top: 1200px;
+    top: 3500px;
     transform: rotateX(45deg) translateZ(900px) scale(1.5);
     -webkit-transform: rotateX(45deg) translateZ(900px) scale(1.5);
     -moz-transform: rotateX(45deg) translateZ(900px) scale(1.5);
