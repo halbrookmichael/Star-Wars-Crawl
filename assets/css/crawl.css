@@ -7,30 +7,10 @@ html {
 }
 
 body {
-  height: 1080px;
-  width: 1920px;
+  height: 100%;
+  width: 100%;
   overflow: hidden;   
   background: #000;
-}
-
-.intro {
-  position: relative;
-  animation: intro 7.5s ease-out 1s;
-  opacity: 0;
-  -webkit-animation: intro 7.5s ease-out 1s;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-}
-
-h1.intro-title {
-  z-index: 10;
-  color: rgb(15, 165, 245);
-  font-size: 350%;
-	font-weight: 400;
-  font-family: 'News Cycle', sans-serif;
-  max-width: 700px;
-  margin: 500px auto 0;
 }
 
 .black-bars {
@@ -43,7 +23,43 @@ h1.intro-title {
   -webkit-animation: moveUp 13s ease-in 86s;
 }
 
-.star-destroyer img {
+.intro {
+  position: relative;
+  animation: intro 7.5s ease-out 1s;
+  -webkit-animation: intro 7.5s ease-out 1s;
+  opacity: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1.intro-title {
+  z-index: 10;
+  color: rgb(15, 165, 245);
+  font-size: 350%;
+	font-weight: 400;
+  font-family: 'News Cycle', sans-serif;
+  max-width: 700px;
+  width: 100%;
+}
+
+.logo {
+  position: relative;
+  top: -710px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  opacity: 0;
+  left: -2%;
+  animation: logo 8s ease-out 9s;
+  -webkit-animation: logo 8s ease-out 9s;
+}
+.logo svg {
+  width: inherit;
+}
+
+.tattooine img {
   position: relative;
   z-index: 6;
   top: 90px;
@@ -54,12 +70,13 @@ h1.intro-title {
   opacity: 0;
 }
 
+
 .star-wars {
   height: 1200px;
   position: relative;
   display: flex;
   justify-content: center;
-  perspective: 11000px;
+  perspective: 7000px;
   animation: showSky 100s linear 9s;
   -webkit-animation: showSky 100s linear 9s;
   opacity: 0;
@@ -67,64 +84,50 @@ h1.intro-title {
   left: -2%;
 }
 
-.logo {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-top: -300px;
-  z-index: 5;
-  opacity: 0;
-  animation: logo 8s ease-out 9s;
-  -webkit-animation: logo 8s ease-out 9s;
-  left: -2%;
-}
-
-.logo svg {
-  width: inherit;
-}
-
 .crawl {
   position: relative;
   transform-origin: 50% 100%;
   top: 100%;
-  animation: crawl 88s linear 3.8s;
   width: 100%;
   margin: 0 auto;
-  -webkit-animation: crawl 88s linear 3.8s;
+  animation: crawl 88s linear;
+  -webkit-animation: crawl 88s linear;
 }
-
 .title {
   display: flex;
   flex-direction: column;
   align-content: center;
   margin-bottom: 20px;
 }
-
 .title h1,
 .crawl .title p {
   text-align: center;
 }
-
 .crawl .title p {
   width: 100%;
 }
-
-.title h1 {
+.crawl .title h1 {
   color: #FFE81F;
   text-transform: uppercase;
   font: normal 700 285px "franklin-gothic-urw-cond",sans-serif;
   letter-spacing: 2px;
 }
-
 .crawl p {
   color: #FFE81F;
-  font-size: 131px;
+  font-size: 210px;
   font-weight: 500;
   font-family: "franklin-gothic-urw", sans-serif;
   text-align: justify;
-  letter-spacing: 13px;
+  letter-spacing: 14px;
   z-index: 1;
   line-height: 1.45em;
+  width: 1600px;
+  margin: 0 auto;
+  /* transform: skewX(90deg);
+  -webkit-transform: skewX(90deg);
+  -moz-transform: skewX(90deg);
+  -ms-transform: skewX(90deg);
+  -o-transform: skewX(90deg); */
 }
 
 .stars, .twinkling {
@@ -137,7 +140,6 @@ h1.intro-title {
   height:100%;
   display:block;
 }
-
 .stars {
   background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index:0;
@@ -183,20 +185,20 @@ h1.intro-title {
 
 @keyframes crawl {
 	0% {
-    top: -1600px;
-    transform: rotateX(60deg) translateZ(0);
-    -webkit-transform: rotateX(60deg) translateZ(0);
-    -moz-transform: rotateX(60deg) translateZ(0);
-    -ms-transform: rotateX(60deg) translateZ(0);
-    -o-transform: rotateX(60deg) translateZ(0);
+    top: -6000px;
+    transform: rotateX(45deg) translateZ(0) scale(1);
+    -webkit-transform: rotateX(45deg) translateZ(0) scale(1);
+    -moz-transform: rotateX(45deg) translateZ(0) scale(1);
+    -ms-transform: rotateX(45deg) translateZ(0) scale(1);
+    -o-transform: rotateX(45deg) translateZ(0) scale(1);
 }
 	100% {
-    top: -41800px;
-    transform: rotateX(75deg) translateZ(-35000px);
-    -webkit-transform: rotateX(75deg) translateZ(-35000px);
-    -moz-transform: rotateX(75deg) translateZ(-35000px);
-    -ms-transform: rotateX(75deg) translateZ(-35000px);
-    -o-transform: rotateX(75deg) translateZ(-35000px);
+    top: -40000px;
+    transform: rotateX(60deg) translateZ(-22000px) scale(.1);
+    -webkit-transform: rotateX(60deg) translateZ(-22000px) scale(.1);
+    -moz-transform: rotateX(60deg) translateZ(-22000px) scale(.1);
+    -ms-transform: rotateX(60deg) translateZ(-22000px) scale(.1);
+    -o-transform: rotateX(60deg) translateZ(-22000px) scale(.1);
 }
 }
 
