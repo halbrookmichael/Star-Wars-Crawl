@@ -67,7 +67,7 @@ h1.intro-title {
   opacity: 0.9;
   animation: scrollDown 13s ease-in 86s;
   -webkit-animation: scrollDown 13s ease-in 86s;
-  opacity: 0;
+  opacity: 1;
 }
 
 
@@ -76,7 +76,7 @@ h1.intro-title {
   position: relative;
   display: flex;
   justify-content: center;
-  perspective: 6000px;
+  perspective: 1200px;
   animation: showSky 100s linear 9s;
   -webkit-animation: showSky 100s linear 9s;
   opacity: 0;
@@ -90,14 +90,15 @@ h1.intro-title {
   top: 100%;
   width: 100%;
   margin: 0 auto;
-  animation: crawl 88s linear 5s;
-  -webkit-animation: crawl 88s linear 5s;
+  animation: crawl 88s linear 12.5s;
+  -webkit-animation: crawl 88s linear 12.5s;
 }
 .title {
   display: flex;
   flex-direction: column;
   align-content: center;
   margin-bottom: 20px;
+  width: 100%;
 }
 .title h1,
 .crawl .title p {
@@ -109,25 +110,25 @@ h1.intro-title {
 .crawl .title h1 {
   color: #FFE81F;
   text-transform: uppercase;
-  font: normal 700 285px "franklin-gothic-urw-cond",sans-serif;
-  letter-spacing: 2px;
+  font: normal 700 390px "franklin-gothic-urw-cond",sans-serif;
+  letter-spacing: 6px;
 }
 .crawl p {
   color: #FFE81F;
-  font-size: 210px;
+  font-size: 145px;
   font-weight: 500;
   font-family: "franklin-gothic-urw", sans-serif;
   text-align: justify;
   letter-spacing: 14px;
   z-index: 1;
   line-height: 1.45em;
-  width: 2000px;
+  width: 2200px;
   margin: 0 auto;
-  /* transform: skewX(90deg);
-  -webkit-transform: skewX(90deg);
-  -moz-transform: skewX(90deg);
-  -ms-transform: skewX(90deg);
-  -o-transform: skewX(90deg); */
+}
+
+.crawl .story {
+  position: relative;
+  left: -8%;
 }
 
 .stars, .twinkling {
@@ -154,7 +155,7 @@ h1.intro-title {
   animation:move-twink-back 825s linear infinite;
 }
 
-.bottom-black-bar {
+/* .bottom-black-bar {
   background-color: #000;
     position: absolute;
     left: 0;
@@ -163,7 +164,7 @@ h1.intro-title {
     width: 100%;
     overflow: hidden;
     z-index: 7;
-}
+} */
 
 /* animation is turning transparent bg on and off */
 @keyframes move-twink-back {
@@ -186,19 +187,19 @@ h1.intro-title {
 @keyframes crawl {
 	0% {
     top: 3500px;
-    transform: rotateX(45deg) translateZ(900px) scale(1.5);
-    -webkit-transform: rotateX(45deg) translateZ(900px) scale(1.5);
-    -moz-transform: rotateX(45deg) translateZ(900px) scale(1.5);
-    -ms-transform: rotateX(45deg) translateZ(900px) scale(1.5);
-    -o-transform: rotateX(45deg) translateZ(900px) scale(1.5);
+    transform: rotateX(45deg) translateZ(5000px);
+    -webkit-transform: rotateX(45deg) translateZ(5000px);
+    -moz-transform: rotateX(45deg) translateZ(5000px);
+    -ms-transform: rotateX(45deg) translateZ(5000px);
+    -o-transform: rotateX(45deg) translateZ(5000px);
 }
 	100% {
-    top: -41500px;
-    transform: rotateX(65deg) translateZ(-26000px) scale(.001);
-    -webkit-transform: rotateX(65deg) translateZ(-26000px) scale(.001);
-    -moz-transform: rotateX(65deg) translateZ(-26000px) scale(.001);
-    -ms-transform: rotateX(65deg) translateZ(-26000px) scale(.001);
-    -o-transform: rotateX(65deg) translateZ(-26000px) scale(.001);
+    top: -18600px;
+    transform: rotateX(60deg) translateZ(-12500px);
+    -webkit-transform: rotateX(60deg) translateZ(-12500px);
+    -moz-transform: rotateX(60deg) translateZ(-12500px);
+    -ms-transform: rotateX(60deg) translateZ(-12500px);
+    -o-transform: rotateX(60deg) translateZ(-12500px);
 }
 }
 
