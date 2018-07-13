@@ -45,7 +45,7 @@ h1.intro-title {
 
 .logo {
   position: relative;
-  top: -710px;
+  top: -760px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,7 +97,7 @@ h1.intro-title {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin-bottom: 20px;
+  margin-bottom: -100px;
   width: 100%;
 }
 .title h1,
@@ -112,6 +112,7 @@ h1.intro-title {
   text-transform: uppercase;
   font: normal 700 390px "franklin-gothic-urw-cond",sans-serif;
   letter-spacing: 6px;
+  margin-top: -15px;
 }
 .crawl p {
   color: #FFE81F;
@@ -119,7 +120,7 @@ h1.intro-title {
   font-weight: 500;
   font-family: "franklin-gothic-urw", sans-serif;
   text-align: justify;
-  letter-spacing: 14px;
+  letter-spacing: 13px;
   z-index: 1;
   line-height: 1.45em;
   width: 2200px;
@@ -194,12 +195,12 @@ h1.intro-title {
     -o-transform: rotateX(45deg) translateZ(5000px);
 }
 	100% {
-    top: -18600px;
-    transform: rotateX(60deg) translateZ(-12500px);
-    -webkit-transform: rotateX(60deg) translateZ(-12500px);
-    -moz-transform: rotateX(60deg) translateZ(-12500px);
-    -ms-transform: rotateX(60deg) translateZ(-12500px);
-    -o-transform: rotateX(60deg) translateZ(-12500px);
+    top: -21600px;
+    transform: rotateX(60deg) translateZ(-13700px);
+    -webkit-transform: rotateX(60deg) translateZ(-13700px);
+    -moz-transform: rotateX(60deg) translateZ(-13700px);
+    -ms-transform: rotateX(60deg) translateZ(-13700px);
+    -o-transform: rotateX(60deg) translateZ(-13700px);
 }
 }
 
