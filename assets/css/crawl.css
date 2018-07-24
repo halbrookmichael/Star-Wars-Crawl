@@ -62,11 +62,10 @@ h1.intro-title {
 .tattooine img {
   position: relative;
   z-index: 6;
-  top: 90px;
+  top: 800px;
   width: 100%;
-  opacity: 0.9;
-  animation: scrollDown 13s ease-in 86s;
-  -webkit-animation: scrollDown 13s ease-in 86s;
+  animation: scrollDown 13s ease-in 85s;
+  -webkit-animation: scrollDown 13s ease-in 85s;
   opacity: 1;
 }
 
@@ -90,8 +89,8 @@ h1.intro-title {
   top: 100%;
   width: 100%;
   margin: 0 auto;
-  animation: crawl 88s linear 12.5s;
-  -webkit-animation: crawl 88s linear 12.5s;
+  animation: crawl 88s linear 12s;
+  -webkit-animation: crawl 88s linear 12s;
 }
 .title {
   display: flex;
@@ -247,23 +246,23 @@ h1.intro-title {
   }
   60% {
     opacity: 1;
-    top: -600px;
+    top: -60px;
   }
   70% {
     opacity: 1;
-    top: -600px;
+    top: -60px;
   }
   80% {
     opacity: 1;
-    top: -600px;
+    top: -60px;
   }
   90% {
     opacity: 1;
-    top: -600px;
+    top: -60px;
   }
   100% {
     opacity: 1;
-    top: -600px;
+    top: -60px;
   }
 }
 
