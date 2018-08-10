@@ -62,11 +62,11 @@ h1.intro-title {
 .tattooine img {
   position: relative;
   z-index: 6;
-  top: 800px;
+  top: 100%;
   width: 100%;
-  animation: scrollDown 13s ease-in 85s;
-  -webkit-animation: scrollDown 13s ease-in 85s;
-  opacity: 1;
+  animation: scrollDown 13s ease-in 88s;
+  -webkit-animation: scrollDown 13s ease-in 88s;
+  opacity: 0;
 }
 
 
@@ -75,7 +75,7 @@ h1.intro-title {
   position: relative;
   display: flex;
   justify-content: center;
-  perspective: 1200px;
+  perspective: 3000px;
   animation: showSky 100s linear 9s;
   -webkit-animation: showSky 100s linear 9s;
   opacity: 0;
@@ -98,6 +98,8 @@ h1.intro-title {
   align-content: center;
   margin-bottom: -100px;
   width: 100%;
+  position: relative;
+  left: -85px;
 }
 .title h1,
 .crawl .title p {
@@ -186,20 +188,20 @@ h1.intro-title {
 
 @keyframes crawl {
 	0% {
-    top: 3500px;
-    transform: rotateX(45deg) translateZ(5000px);
-    -webkit-transform: rotateX(45deg) translateZ(5000px);
-    -moz-transform: rotateX(45deg) translateZ(5000px);
-    -ms-transform: rotateX(45deg) translateZ(5000px);
-    -o-transform: rotateX(45deg) translateZ(5000px);
+    top: 2800px;
+    transform: rotateX(55deg) translateZ(5000px);
+    -webkit-transform: rotateX(55deg) translateZ(5000px);
+    -moz-transform: rotateX(55deg) translateZ(5000px);
+    -ms-transform: rotateX(55deg) translateZ(5000px);
+    -o-transform: rotateX(55deg) translateZ(5000px);
 }
 	100% {
-    top: -21600px;
-    transform: rotateX(60deg) translateZ(-13700px);
-    -webkit-transform: rotateX(60deg) translateZ(-13700px);
-    -moz-transform: rotateX(60deg) translateZ(-13700px);
-    -ms-transform: rotateX(60deg) translateZ(-13700px);
-    -o-transform: rotateX(60deg) translateZ(-13700px);
+    top: -26600px;
+    transform: rotateX(75deg) translateZ(-18700px);
+    -webkit-transform: rotateX(75deg) translateZ(-18700px);
+    -moz-transform: rotateX(75deg) translateZ(-18700px);
+    -ms-transform: rotateX(75deg) translateZ(-18700px);
+    -o-transform: rotateX(75deg) translateZ(-18700px);
 }
 }
 
@@ -242,27 +244,28 @@ h1.intro-title {
 
 @keyframes scrollDown {
   0% {
-    top: 90px;
+    opacity: 1;
+    top: 100%;
   }
   60% {
     opacity: 1;
-    top: -60px;
+    top: 80%;
   }
   70% {
     opacity: 1;
-    top: -60px;
+    top: 0;
   }
   80% {
     opacity: 1;
-    top: -60px;
+    top: 0;
   }
   90% {
     opacity: 1;
-    top: -60px;
+    top: 0;
   }
   100% {
     opacity: 1;
-    top: -60px;
+    top: 0;
   }
 }
 
